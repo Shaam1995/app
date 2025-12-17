@@ -1,4 +1,4 @@
-FROM node:20
+FROM httpd:latest
 WORKDIR /app
 COPY index.html .
 COPY script.js .
