@@ -15,4 +15,4 @@ COPY index.html .
 # The httpd image automatically exposes port 80 and starts the server by default, so no EXPOSE or CMD is strictly necessary,
 # but for clarity we can note the port.
 EXPOSE 80
-CMD ["httpd:2.4" "index.html"]
+CMD ["httpd:2.4" "daemon off"]
